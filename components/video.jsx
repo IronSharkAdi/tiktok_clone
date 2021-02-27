@@ -1,5 +1,10 @@
-export default function video = () =>{
+export default const video = () =>{
   return(
-    <div></div>
+    <div className="Video">
+        {/* Video  */}
+        <video src=""></video>
+        {/* VideoFooter */}
+        {/* VideoSidebar */}
+    </div>
   )
 }
