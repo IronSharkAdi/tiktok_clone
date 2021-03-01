@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 html,
 body {
   padding: 0;
@@ -60,7 +61,7 @@ a {
 
 .videofooter {
   position: relative;
-  bottom: 130px;
+  bottom: 180px;
   color: white;
   display: flex;
   margin-left: 40px;
@@ -74,6 +75,7 @@ a {
 }
 .footer_text > h3 {
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .cd_logo {
@@ -82,6 +84,7 @@ a {
   animation: spin infinite 5s linear;
   bottom: 0;
   margin: 10px;
+  cursor: pointer;
 }
 
 .footer_logo {
@@ -102,11 +105,61 @@ a {
 .sidebar {
   position: absolute;
   color: white;
-  top: 50%;
+  top: 40%;
   right: 0px;
 }
 
 .sidebar_button {
   padding: 20px;
   text-align: center;
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.nav_icon {
+  color: white;
+}
+.nav_text {
+  color: white;
+  font-size: 12px;
+}
+.nav_icon_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* 404 */
+
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh !important;
+  width: 100vh !important;
+  background-image: url("/img/bg01.jpg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.four > h1 {
+  font-size: 100px;
+  font-family: "Akaya Telivigala", cursive;
+  color: white;
+}
+.four > a {
+  font-size: 30px;
+  color: rgb(115, 255, 255);
+  border: black solid 5px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.541);
+  margin-top: 20px;
 }
